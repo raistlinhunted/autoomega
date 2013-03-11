@@ -1,0 +1,19 @@
+name: Auto Omega
+version: 1.0
+description: Automatically restarts the server over a desired time
+author: Baseball435
+authors: [baseball435, Raistlinhunted, CallsignWulf] 
+website: http://minecraftomega.com/
+
+main: org.omega.autoomega.Boot
+database: false
+
+commands:
+  restart:
+    description: Restarts the server
+    permission: autoomega.restart
+    usage: /restart
+
+permissions:
+  autoomega.restart:
+    description: Allows a user to restart the server
